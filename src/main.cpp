@@ -1,22 +1,25 @@
 /*
- * Author:
- * Date:
+ * Author: Raximberdi
+ * Date: 10/17/2023
  * Name:
  */
 
 #include <iostream>
-#include "task_1.h"
-
+#include <string>
+class sinf{
+public:
+sinf(){
+cout<<"Hello i am in constructor"<<endl;
+}
+~sinf(){
+cout<<"Hello i am in distructor"<<endl;
+}
+void display(){
+cout<<"Hello"<<endl;
+}
+};
 int main() {
-    std::cout << "Task 1" << std::endl;
-    // call for task 1
-    std::cout << "Task 2" << std::endl;
-    // call for task 2
-    std::cout << "Task 3" << std::endl;
-    // call for task 3
-    std::cout << "Task 4" << std::endl;
-    // call for task 4
-    std::cout << "Task 5" << std::endl;
-    // call for task 5
+   sinf dosk;
+    dosk.display();
     return 0;
 }
